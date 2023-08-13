@@ -1,0 +1,30 @@
+.input-groups {
+  height: 50px;
+  border: 1px solid #EBEBEC;
+  position: relative;
+  
+}
+.input-groups input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.5rem;
+  border: 1px solid #EBEBEC;
+  position: relative;
+}
+.input-groups span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  background-color: #f7f8f9;
+  padding: 2px 5px;
+  color: #9F72FD;
+}
+
+.input-groups input:focus {
+  outline: none;
+}
+.input-groups input:focus + span, .input-groups input:valid + span {
+  top: -10px;
+  left: 10px;
+}

@@ -1,0 +1,41 @@
+.container-box {
+  width: 375px;
+  height: 812px;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  justify-content: flex-end;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  background-color: #F7F8F9;
+}
+h2 {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1.2rem;
+}
+button {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  border: none;
+}
+.createAcc {
+  color: white;
+  background-color: #6c25ff;
+}
+.loginBtn {
+  background-color: #cebafb;
+}
+.createAcc:hover {
+  background-color: #cebafb;
+  color: black;
+}
+.loginBtn:hover {
+  background-color: #6c25ff;
+  color: white;
+}

@@ -1,0 +1,47 @@
+.accSetting{
+    width: 375px;
+    height: 812px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    border: 1px solid #eeeeee;
+    padding-bottom: 40px;
+    background-color: #F7F8F9;
+}
+.nav{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+}
+.main-container{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+}
+.image-parts{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+.img1{
+    width: 100%;
+    object-fit: contain;
+}
+.img2{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: -8px;
+    bottom: 5px;
+}
+.details{
+    margin-left: 10px;
+}
+.para{
+    margin-top: 20px;
+}
